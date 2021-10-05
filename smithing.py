@@ -18,18 +18,10 @@ items = [
     "2H Sword",
     "Crossbow Head",
     "Platelegs",
-    "Platebody"
+    "Platebody",
 ]
 
-materials = [
-    "Bronze",
-    "Iron",
-    "Steel",
-    "Mithril",
-    "Adamant",
-    "Rune",
-    "Dragon"
-]
+materials = ["Bronze", "Iron", "Steel", "Mithril", "Adamant", "Rune", "Dragon"]
 
 mastery_item = [
     "Mastery Level",
@@ -37,15 +29,7 @@ mastery_item = [
     "",
     "CURRENT_ITEM",
     "99",
-    [
-        [
-            "Start Skill",
-            "Smithing",
-            "NEXT_ITEM",
-            "",
-            ""
-        ]
-    ]
+    [["Start Skill", "Smithing", "NEXT_ITEM", "", ""]],
 ]
 
 item_tuples = itertools.product(materials, items)
@@ -63,16 +47,8 @@ for grouping in itertools.pairwise(itemlist):
             "",
             grouping[0],
             "99",
-            [
-                [
-                    "Start Skill",
-                    "Smithing",
-                    grouping[1],
-                    "",
-                    ""
-                ]
-            ]
-        ]    
+            [["Start Skill", "Smithing", grouping[1], "", ""]],
+        ]
     )
 
 # Manually add the final one
@@ -83,15 +59,7 @@ mastery_list.append(
         "",
         itemlist[-1:][0],
         "99",
-        [
-            [
-                "Start Skill",
-                "Agility",
-                "",
-                "",
-                ""
-            ]
-        ]
+        [["Start Skill", "Agility", "", "", ""]],
     ]
 )
 
