@@ -1,4 +1,4 @@
-#!/usr/local/bin/fbpython
+#!/usr/bin/env python310
 
 import json
 import itertools
