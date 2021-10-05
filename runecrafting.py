@@ -3,32 +3,46 @@
 import json
 import itertools
 
-staves_of = [
-    "Staff of",
+# Standard Runes
+standard_elements = [
+    "Air",
+    "Mind",
+    "Water",
+    "Earth",
+    "Fire",
+    "Light",
+    "Body",
+    "Chaos",
+    "Nature",
+    "Havoc",
+    "Death",
+    "Blood",
+    "Spirit",
+    "Ancient",
 ]
 
-battlestaves = [
-    "Battlestaff",
+# Combination Runes
+combo_elements = [
+    "Mist",
+    "Dust",
+    "Mud",
+    "Smoke",
+    "Steam",
+    "Lava",
 ]
 
-mystic_staves = [
-    "Mystic",
-]
-
-wands = [
-    "Imbued Wand",
-]
-
-elements = [
+# Staves & Wands
+staff_elements = [
     "Air",
     "Water",
     "Earth",
     "Fire",
 ]
 
-staff = [
-    "Staff"
-]
+# Magic Gear
+gear_levels = ["Acolyte", "Adept", "Expert"]
+
+gear_types = ["Wizard Hat", "Wizard Boots", "Wizard Bottoms", "Wizard Robes"]
 
 mastery_item = [
     "Mastery Level",
@@ -36,16 +50,9 @@ mastery_item = [
     "",
     "CURRENT_ITEM",
     "99",
-    [
-        [
-            "Start Skill",
-            "Crafting",
-            "NEXT_ITEM",
-            "",
-            ""
-        ]
-    ]
+    [["Start Skill", "Crafting", "NEXT_ITEM", "", ""]],
 ]
+
 
 def itemize(*args):
     if len(args) == 3:
@@ -64,26 +71,34 @@ def generate_list(itemlist):
                 "",
                 grouping[0],
                 "99",
-                [
-                    [
-                        "Start Skill",
-                        "Runecrafting",
-                        grouping[1],
-                        "",
-                        ""
-                    ]
-                ]
-            ]    
+                [["Start Skill", "Runecrafting", grouping[1], "", ""]],
+            ]
         )
     return mastery_list
 
+
 mastery_list = []
 itemlist = []
-itemlist.extend(itemize(staves_of, elements))
-itemlist.extend(itemize(elements, battlestaves))
-itemlist.extend(itemize(mystic_staves, elements, staff))
-itemlist.extend(itemize(elements, wands))
+itemlist.extend(itemize(standard_elements, ["Rune"]))
+itemlist.extend(itemize(combo_elements, ["Rune"]))
+itemlist.extend(itemize(["Staff of"], staff_elements))
+itemlist.extend(itemize(staff_elements, ["Battlestaff"]))
+itemlist.extend(itemize(["Mystic"], staff_elements, ["Staff"]))
+itemlist.extend(itemize(staff_elements, ["Imbued Wand"]))
+itemlist.extend(itemize(staff_elements, gear_levels, gear_types))
 mastery_list.extend(generate_list(itemlist))
+
+# Manually add the final agility
+mastery_list.append(
+    [
+        "Mastery Level",
+        "Runecrafting",
+        "",
+        "Fire Expert Wizard Robes",
+        "99",
+        [["Start Skill", "Agility", "", "", ""]],
+    ]
+)
 
 with open("runecrafting_mastery.txt", "w") as f:
     json.dump(mastery_list, f, sort_keys=False, indent=2)

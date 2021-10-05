@@ -1,0 +1,1346 @@
+[
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Mind Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Mind Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Light Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Light Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Body Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Body Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Chaos Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Chaos Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Nature Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Nature Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Havoc Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Havoc Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Death Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Death Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Blood Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Blood Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Spirit Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Spirit Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Ancient Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Ancient Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Mist Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Mist Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Dust Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Dust Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Mud Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Mud Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Smoke Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Smoke Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Steam Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Steam Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Lava Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Lava Rune",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Staff of Air",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Staff of Air",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Staff of Water",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Staff of Water",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Staff of Earth",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Staff of Earth",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Staff of Fire",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Staff of Fire",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Battlestaff",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Battlestaff",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Battlestaff",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Battlestaff",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Battlestaff",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Battlestaff",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Battlestaff",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Battlestaff",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Mystic Air Staff",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Mystic Air Staff",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Mystic Water Staff",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Mystic Water Staff",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Mystic Earth Staff",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Mystic Earth Staff",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Mystic Fire Staff",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Mystic Fire Staff",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Imbued Wand",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Imbued Wand",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Imbued Wand",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Imbued Wand",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Imbued Wand",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Imbued Wand",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Imbued Wand",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Imbued Wand",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Acolyte Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Acolyte Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Acolyte Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Acolyte Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Acolyte Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Acolyte Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Acolyte Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Acolyte Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Adept Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Adept Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Adept Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Adept Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Adept Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Adept Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Adept Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Adept Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Expert Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Expert Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Expert Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Expert Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Expert Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Expert Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Expert Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Air Expert Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Acolyte Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Acolyte Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Acolyte Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Acolyte Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Acolyte Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Acolyte Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Acolyte Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Acolyte Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Adept Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Adept Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Adept Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Adept Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Adept Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Adept Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Adept Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Adept Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Expert Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Expert Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Expert Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Expert Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Expert Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Expert Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Water Expert Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Water Expert Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Acolyte Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Acolyte Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Acolyte Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Acolyte Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Acolyte Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Acolyte Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Acolyte Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Acolyte Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Adept Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Adept Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Adept Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Adept Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Adept Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Adept Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Adept Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Adept Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Expert Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Expert Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Expert Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Expert Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Expert Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Expert Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Earth Expert Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Earth Expert Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Acolyte Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Acolyte Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Acolyte Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Acolyte Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Acolyte Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Acolyte Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Acolyte Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Acolyte Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Adept Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Adept Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Adept Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Adept Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Adept Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Adept Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Adept Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Adept Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Expert Wizard Hat",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Expert Wizard Hat",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Expert Wizard Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Expert Wizard Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Expert Wizard Bottoms",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Expert Wizard Bottoms",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Fire Expert Wizard Robes",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Runecrafting",
+    "",
+    "Fire Expert Wizard Robes",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
