@@ -753,9 +753,73 @@
   ],
   [
     "Mastery Level",
-    "Smithing",
+    "Crafting",
     "",
     "Gold Diamond Necklace",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Runecrafting Pouch",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Runecrafting Pouch",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Seed Pouch",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Seed Pouch",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Thief's Monkeysack",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Thief's Monkeysack",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Alchemist's Bag",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Thief's Monkeysack",
     "99",
     [
       [
