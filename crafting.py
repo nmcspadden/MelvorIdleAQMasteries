@@ -12,42 +12,17 @@ leather_items = [
     "Chaps",
 ]
 
-leather_materials = [
-    "Leather",
-    "Hard Leather"
-]
+leather_materials = ["Leather", "Hard Leather"]
 
-dhide_items = [
-    "Vambraces",
-    "Chaps",
-    "Shield",
-    "Body"
-]
+dhide_items = ["Vambraces", "Chaps", "Shield", "Body"]
 
-dhide_materials = [
-    "Green D-hide",
-    "Blue D-hide",
-    "Red D-hide",
-    "Black D-hide"
-]
+dhide_materials = ["Green D-hide", "Blue D-hide", "Red D-hide", "Black D-hide"]
 
-jewels_items = [
-    "Topaz",
-    "Sapphire",
-    "Ruby",
-    "Emerald",
-    "Diamond"
-]
+jewels_items = ["Topaz", "Sapphire", "Ruby", "Emerald", "Diamond"]
 
-jewelry_types = [
-    "Ring",
-    "Necklace"
-]
+jewelry_types = ["Ring", "Necklace"]
 
-rings_materials = [
-    "Silver",
-    "Gold"
-]
+rings_materials = ["Silver", "Gold"]
 
 mastery_item = [
     "Mastery Level",
@@ -55,16 +30,9 @@ mastery_item = [
     "",
     "CURRENT_ITEM",
     "99",
-    [
-        [
-            "Start Skill",
-            "Crafting",
-            "NEXT_ITEM",
-            "",
-            ""
-        ]
-    ]
+    [["Start Skill", "Crafting", "NEXT_ITEM", "", ""]],
 ]
+
 
 def itemize(*args):
     if len(args) == 3:
@@ -83,18 +51,11 @@ def generate_list(itemlist):
                 "",
                 grouping[0],
                 "99",
-                [
-                    [
-                        "Start Skill",
-                        "Crafting",
-                        grouping[1],
-                        "",
-                        ""
-                    ]
-                ]
-            ]    
+                [["Start Skill", "Crafting", grouping[1], "", ""]],
+            ]
         )
     return mastery_list
+
 
 mastery_list = []
 itemlist = []
@@ -102,8 +63,6 @@ itemlist.extend(itemize(leather_materials, leather_items))
 itemlist.extend(itemize(dhide_materials, dhide_items))
 itemlist.extend(itemize(rings_materials, jewels_items, jewelry_types))
 mastery_list.extend(generate_list(itemlist))
-# # Combine all elements
-# jewelry_list = [" ".join((x, y, z)) for (x, y, z) in itertools.product(rings_materials, jewels_items, jewelry_types)]
 
 # Manually add the final one
 mastery_list.append(
@@ -113,15 +72,7 @@ mastery_list.append(
         "",
         "Gold Diamond Necklace",
         "99",
-        [
-            [
-                "Start Skill",
-                "Agility",
-                "",
-                "",
-                ""
-            ]
-        ]
+        [["Start Skill", "Agility", "", "", ""]],
     ]
 )
 

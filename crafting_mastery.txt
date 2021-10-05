@@ -1,0 +1,770 @@
+[
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Leather Gloves",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Leather Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Leather Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Leather Cowl",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Leather Cowl",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Leather Vambraces",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Leather Vambraces",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Leather Body",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Leather Body",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Leather Chaps",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Leather Chaps",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Hard Leather Gloves",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Hard Leather Gloves",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Hard Leather Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Hard Leather Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Hard Leather Cowl",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Hard Leather Cowl",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Hard Leather Vambraces",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Hard Leather Vambraces",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Hard Leather Body",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Hard Leather Body",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Hard Leather Chaps",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Hard Leather Chaps",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Green D-hide Vambraces",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Green D-hide Vambraces",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Green D-hide Chaps",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Green D-hide Chaps",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Green D-hide Shield",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Green D-hide Shield",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Green D-hide Body",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Green D-hide Body",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Blue D-hide Vambraces",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Blue D-hide Vambraces",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Blue D-hide Chaps",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Blue D-hide Chaps",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Blue D-hide Shield",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Blue D-hide Shield",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Blue D-hide Body",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Blue D-hide Body",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Red D-hide Vambraces",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Red D-hide Vambraces",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Red D-hide Chaps",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Red D-hide Chaps",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Red D-hide Shield",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Red D-hide Shield",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Red D-hide Body",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Red D-hide Body",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Black D-hide Vambraces",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Black D-hide Vambraces",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Black D-hide Chaps",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Black D-hide Chaps",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Black D-hide Shield",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Black D-hide Shield",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Black D-hide Body",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Black D-hide Body",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Silver Topaz Ring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Silver Topaz Ring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Silver Topaz Necklace",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Silver Topaz Necklace",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Silver Sapphire Ring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Silver Sapphire Ring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Silver Sapphire Necklace",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Silver Sapphire Necklace",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Silver Ruby Ring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Silver Ruby Ring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Silver Ruby Necklace",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Silver Ruby Necklace",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Silver Emerald Ring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Silver Emerald Ring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Silver Emerald Necklace",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Silver Emerald Necklace",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Silver Diamond Ring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Silver Diamond Ring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Silver Diamond Necklace",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Silver Diamond Necklace",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Gold Topaz Ring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Gold Topaz Ring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Gold Topaz Necklace",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Gold Topaz Necklace",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Gold Sapphire Ring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Gold Sapphire Ring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Gold Sapphire Necklace",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Gold Sapphire Necklace",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Gold Ruby Ring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Gold Ruby Ring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Gold Ruby Necklace",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Gold Ruby Necklace",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Gold Emerald Ring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Gold Emerald Ring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Gold Emerald Necklace",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Gold Emerald Necklace",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Gold Diamond Ring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Crafting",
+    "",
+    "Gold Diamond Ring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Gold Diamond Necklace",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Gold Diamond Necklace",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
