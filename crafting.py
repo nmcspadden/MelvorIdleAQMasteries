@@ -24,6 +24,13 @@ jewelry_types = ["Ring", "Necklace"]
 
 rings_materials = ["Silver", "Gold"]
 
+bags = [
+    "Runecrafting Pouch",
+    "Seed Pouch",
+    "Thief's Monkeysack",
+    "Alchemist's Bag",
+]
+
 mastery_item = [
     "Mastery Level",
     "Crafting",
@@ -62,6 +69,7 @@ itemlist = []
 itemlist.extend(itemize(leather_materials, leather_items))
 itemlist.extend(itemize(dhide_materials, dhide_items))
 itemlist.extend(itemize(rings_materials, jewels_items, jewelry_types))
+itemlist.extend(bags)
 mastery_list.extend(generate_list(itemlist))
 
 # Manually add the final one
@@ -70,7 +78,7 @@ mastery_list.append(
         "Mastery Level",
         "Smithing",
         "",
-        "Gold Diamond Necklace",
+        mastery_list[-1][3],
         "99",
         [["Start Skill", "Agility", "", "", ""]],
     ]
