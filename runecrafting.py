@@ -94,7 +94,7 @@ mastery_list.append(
         "Mastery Level",
         "Runecrafting",
         "",
-        mastery_list[-1][3],
+        itemlist[-1],
         "99",
         [["Start Skill", "Agility", "", "", ""]],
     ]

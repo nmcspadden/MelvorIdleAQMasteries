@@ -1331,7 +1331,7 @@
     "Mastery Level",
     "Runecrafting",
     "",
-    "Fire Expert Wizard Bottoms",
+    "Fire Expert Wizard Robes",
     "99",
     [
       [
