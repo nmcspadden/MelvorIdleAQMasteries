@@ -86,6 +86,13 @@ itemlist.extend(itemize(staff_elements, ["Battlestaff"]))
 itemlist.extend(itemize(["Mystic"], staff_elements, ["Staff"]))
 itemlist.extend(itemize(staff_elements, ["Imbued Wand"]))
 itemlist.extend(itemize(staff_elements, gear_levels, gear_types))
+
+# Manually add the starting point
+mastery_list.append(
+    ["Idle", "", "", "", "", [["Start Skill", "Runecrafting", itemlist[0], "", ""]]]
+)
+
+# Generate the rest of the lists
 mastery_list.extend(generate_list(itemlist))
 
 # Manually add the final agility

@@ -1,5 +1,21 @@
 [
   [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Runecrafting",
+        "Air Rune",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
     "Mastery Level",
     "Runecrafting",
     "",
