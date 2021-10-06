@@ -3,6 +3,8 @@
 import json
 import itertools
 
+SKILL = "Runecrafting"
+
 # Standard Runes
 standard_elements = [
     "Air",
@@ -67,11 +69,11 @@ def generate_list(itemlist):
         mastery_list.append(
             [
                 "Mastery Level",
-                "Runecrafting",
+                SKILL,
                 "",
                 grouping[0],
                 "99",
-                [["Start Skill", "Runecrafting", grouping[1], "", ""]],
+                [["Start Skill", SKILL, grouping[1], "", ""]],
             ]
         )
     return mastery_list
@@ -89,7 +91,7 @@ itemlist.extend(itemize(staff_elements, gear_levels, gear_types))
 
 # Manually add the starting point
 mastery_list.append(
-    ["Idle", "", "", "", "", [["Start Skill", "Runecrafting", itemlist[0], "", ""]]]
+    ["Idle", "", "", "", "", [["Start Skill", SKILL, itemlist[0], "", ""]]]
 )
 
 # Generate the rest of the lists
@@ -99,7 +101,7 @@ mastery_list.extend(generate_list(itemlist))
 mastery_list.append(
     [
         "Mastery Level",
-        "Runecrafting",
+        SKILL,
         "",
         itemlist[-1],
         "99",

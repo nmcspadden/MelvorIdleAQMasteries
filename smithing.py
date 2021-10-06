@@ -3,6 +3,8 @@
 import json
 import itertools
 
+SKILL = "Smithing"
+
 items = [
     "Dagger",
     "Throwing Knife",
@@ -25,11 +27,11 @@ materials = ["Bronze", "Iron", "Steel", "Mithril", "Adamant", "Rune", "Dragon"]
 
 mastery_item = [
     "Mastery Level",
-    "Smithing",
+    SKILL,
     "",
     "CURRENT_ITEM",
     "99",
-    [["Start Skill", "Smithing", "NEXT_ITEM", "", ""]],
+    [["Start Skill", SKILL, "NEXT_ITEM", "", ""]],
 ]
 
 item_tuples = itertools.product(materials, items)
@@ -43,11 +45,11 @@ for grouping in itertools.pairwise(itemlist):
     mastery_list.append(
         [
             "Mastery Level",
-            "Smithing",
+            SKILL,
             "",
             grouping[0],
             "99",
-            [["Start Skill", "Smithing", grouping[1], "", ""]],
+            [["Start Skill", SKILL, grouping[1], "", ""]],
         ]
     )
 
@@ -55,7 +57,7 @@ for grouping in itertools.pairwise(itemlist):
 mastery_list.append(
     [
         "Mastery Level",
-        "Smithing",
+        SKILL,
         "",
         itemlist[-1:][0],
         "99",
