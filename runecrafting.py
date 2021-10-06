@@ -94,7 +94,7 @@ mastery_list.append(
         "Mastery Level",
         "Runecrafting",
         "",
-        "Fire Expert Wizard Robes",
+        mastery_list[-1][3],
         "99",
         [["Start Skill", "Agility", "", "", ""]],
     ]
