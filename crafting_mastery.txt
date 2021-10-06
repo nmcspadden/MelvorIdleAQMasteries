@@ -817,9 +817,9 @@
   ],
   [
     "Mastery Level",
-    "Smithing",
+    "Crafting",
     "",
-    "Thief's Monkeysack",
+    "Alchemist's Bag",
     "99",
     [
       [

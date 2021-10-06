@@ -76,9 +76,9 @@ mastery_list.extend(generate_list(itemlist))
 mastery_list.append(
     [
         "Mastery Level",
-        "Smithing",
+        "Crafting",
         "",
-        mastery_list[-1][3],
+        itemlist[-1],
         "99",
         [["Start Skill", "Agility", "", "", ""]],
     ]
