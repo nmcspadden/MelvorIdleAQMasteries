@@ -1,0 +1,930 @@
+[
+  [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Arrow Shafts",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Arrow Shafts",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Headless Arrows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Headless Arrows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Bronze Arrows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Bronze Arrows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Iron Arrows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Iron Arrows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Steel Arrows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Steel Arrows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Mithril Arrows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Mithril Arrows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Adamant Arrows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Adamant Arrows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Rune Arrows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Rune Arrows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Dragon Arrows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Dragon Arrows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Normal Shortbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Normal Shortbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Normal Shortbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Normal Shortbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Oak Shortbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Oak Shortbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Oak Shortbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Oak Shortbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Willow Shortbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Willow Shortbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Willow Shortbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Willow Shortbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Maple Shortbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Maple Shortbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Maple Shortbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Maple Shortbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Yew Shortbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Yew Shortbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Yew Shortbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Yew Shortbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Magic Shortbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Magic Shortbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Magic Shortbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Magic Shortbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Redwood Shortbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Redwood Shortbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Redwood Shortbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Redwood Shortbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Normal Longbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Normal Longbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Normal Longbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Normal Longbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Oak Longbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Oak Longbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Oak Longbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Oak Longbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Willow Longbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Willow Longbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Willow Longbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Willow Longbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Maple Longbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Maple Longbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Maple Longbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Maple Longbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Yew Longbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Yew Longbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Yew Longbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Yew Longbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Magic Longbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Magic Longbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Magic Longbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Magic Longbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Redwood Longbow (u)",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Redwood Longbow (u)",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Redwood Longbow",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Redwood Longbow",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Topaz Bolts",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Topaz Bolts",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Sapphire Bolts",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Sapphire Bolts",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Ruby Bolts",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Ruby Bolts",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Emerald Bolts",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Emerald Bolts",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Diamond Bolts",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Diamond Bolts",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Jadestone Bolts",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Jadestone Bolts",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Bronze Crossbows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Bronze Crossbows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Iron Crossbows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Iron Crossbows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Steel Crossbows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Steel Crossbows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Mithril Crossbows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Mithril Crossbows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Adamant Crossbows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Adamant Crossbows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Rune Crossbows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Rune Crossbows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Dragon Crossbows",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Dragon Crossbows",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Bronze Javelins",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Bronze Javelins",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Iron Javelins",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Iron Javelins",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Steel Javelins",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Steel Javelins",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Mithril Javelins",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Mithril Javelins",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Adamant Javelins",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Adamant Javelins",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Rune Javelins",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Rune Javelins",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fletching",
+        "Dragon Javelins",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fletching",
+    "",
+    "Dragon Javelins",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
