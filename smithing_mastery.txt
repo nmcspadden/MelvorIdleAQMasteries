@@ -1,5 +1,21 @@
 [
   [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Dagger",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
     "Mastery Level",
     "Smithing",
     "",

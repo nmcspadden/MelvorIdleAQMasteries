@@ -40,6 +40,12 @@ for item in item_tuples:
     itemlist.append(item[0] + " " + item[1])
 
 mastery_list = []
+
+# Manually add the starting point
+mastery_list.append(
+    ["Idle", "", "", "", "", [["Start Skill", SKILL, itemlist[0], "", ""]]]
+)
+
 # Iterate through each pair
 for grouping in itertools.pairwise(itemlist):
     mastery_list.append(
