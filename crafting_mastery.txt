@@ -1,5 +1,21 @@
 [
   [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Crafting",
+        "Leather Gloves",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
     "Mastery Level",
     "Crafting",
     "",

@@ -3,6 +3,8 @@
 import json
 import itertools
 
+SKILL = "Crafting"
+
 leather_items = [
     "Gloves",
     "Boots",
@@ -33,11 +35,11 @@ bags = [
 
 mastery_item = [
     "Mastery Level",
-    "Crafting",
+    SKILL,
     "",
     "CURRENT_ITEM",
     "99",
-    [["Start Skill", "Crafting", "NEXT_ITEM", "", ""]],
+    [["Start Skill", SKILL, "NEXT_ITEM", "", ""]],
 ]
 
 
@@ -54,11 +56,11 @@ def generate_list(itemlist):
         mastery_list.append(
             [
                 "Mastery Level",
-                "Crafting",
+                SKILL,
                 "",
                 grouping[0],
                 "99",
-                [["Start Skill", "Crafting", grouping[1], "", ""]],
+                [["Start Skill", SKILL, grouping[1], "", ""]],
             ]
         )
     return mastery_list
@@ -70,13 +72,20 @@ itemlist.extend(itemize(leather_materials, leather_items))
 itemlist.extend(itemize(dhide_materials, dhide_items))
 itemlist.extend(itemize(rings_materials, jewels_items, jewelry_types))
 itemlist.extend(bags)
+
+# Manually add the starting point
+mastery_list.append(
+    ["Idle", "", "", "", "", [["Start Skill", SKILL, itemlist[0], "", ""]]]
+)
+
+# Generate the rest of the list
 mastery_list.extend(generate_list(itemlist))
 
 # Manually add the final one
 mastery_list.append(
     [
         "Mastery Level",
-        "Crafting",
+        SKILL,
         "",
         itemlist[-1],
         "99",
