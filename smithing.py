@@ -34,30 +34,41 @@ mastery_item = [
     [["Start Skill", SKILL, "NEXT_ITEM", "", ""]],
 ]
 
-item_tuples = itertools.product(materials, items)
-itemlist = []
-for item in item_tuples:
-    itemlist.append(item[0] + " " + item[1])
+
+def itemize(*args):
+    if len(args) == 3:
+        return [" ".join((x, y, z)) for (x, y, z) in itertools.product(*args)]
+    return [" ".join((x, y)) for (x, y) in itertools.product(*args)]
+
+
+def generate_list(itemlist):
+    mastery_list = []
+    # Iterate through each pair
+    for grouping in itertools.pairwise(itemlist):
+        mastery_list.append(
+            [
+                "Mastery Level",
+                SKILL,
+                "",
+                grouping[0],
+                "99",
+                [["Start Skill", SKILL, grouping[1], "", ""]],
+            ]
+        )
+    return mastery_list
+
 
 mastery_list = []
+itemlist = []
+itemlist.extend(itemize(materials, items))
 
 # Manually add the starting point
 mastery_list.append(
     ["Idle", "", "", "", "", [["Start Skill", SKILL, itemlist[0], "", ""]]]
 )
 
-# Iterate through each pair
-for grouping in itertools.pairwise(itemlist):
-    mastery_list.append(
-        [
-            "Mastery Level",
-            SKILL,
-            "",
-            grouping[0],
-            "99",
-            [["Start Skill", SKILL, grouping[1], "", ""]],
-        ]
-    )
+# Generate the rest of the lists
+mastery_list.extend(generate_list(itemlist))
 
 # Manually add the final one
 mastery_list.append(
