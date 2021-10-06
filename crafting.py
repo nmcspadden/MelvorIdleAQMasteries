@@ -93,5 +93,5 @@ mastery_list.append(
     ]
 )
 
-with open("crafting_mastery.txt", "w") as f:
+with open(f"{SKILL.lower()}_mastery.txt", "w") as f:
     json.dump(mastery_list, f, sort_keys=False, indent=2)
