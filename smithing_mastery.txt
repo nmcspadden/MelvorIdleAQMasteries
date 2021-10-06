@@ -1,0 +1,1682 @@
+[
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Dagger",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Throwing Knife",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Throwing Knife",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Arrowtips",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Arrowtips",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Gloves",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Gloves",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Scimitar",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Scimitar",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Helmet",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Helmet",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Battleaxe",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Battleaxe",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Javelin Heads",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Javelin Heads",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Shield",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Shield",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze 2H Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze 2H Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Crossbow Head",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Crossbow Head",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Platelegs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Platelegs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Bronze Platebody",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Bronze Platebody",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Dagger",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Dagger",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Throwing Knife",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Throwing Knife",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Arrowtips",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Arrowtips",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Gloves",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Gloves",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Scimitar",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Scimitar",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Helmet",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Helmet",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Battleaxe",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Battleaxe",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Javelin Heads",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Javelin Heads",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Shield",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Shield",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron 2H Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron 2H Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Crossbow Head",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Crossbow Head",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Platelegs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Platelegs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Iron Platebody",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Iron Platebody",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Dagger",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Dagger",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Throwing Knife",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Throwing Knife",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Arrowtips",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Arrowtips",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Gloves",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Gloves",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Scimitar",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Scimitar",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Helmet",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Helmet",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Battleaxe",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Battleaxe",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Javelin Heads",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Javelin Heads",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Shield",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Shield",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel 2H Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel 2H Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Crossbow Head",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Crossbow Head",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Platelegs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Platelegs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Steel Platebody",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Steel Platebody",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Dagger",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Dagger",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Throwing Knife",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Throwing Knife",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Arrowtips",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Arrowtips",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Gloves",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Gloves",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Scimitar",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Scimitar",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Helmet",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Helmet",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Battleaxe",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Battleaxe",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Javelin Heads",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Javelin Heads",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Shield",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Shield",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril 2H Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril 2H Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Crossbow Head",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Crossbow Head",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Platelegs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Platelegs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Mithril Platebody",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Mithril Platebody",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Dagger",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Dagger",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Throwing Knife",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Throwing Knife",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Arrowtips",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Arrowtips",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Gloves",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Gloves",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Scimitar",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Scimitar",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Helmet",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Helmet",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Battleaxe",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Battleaxe",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Javelin Heads",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Javelin Heads",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Shield",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Shield",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant 2H Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant 2H Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Crossbow Head",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Crossbow Head",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Platelegs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Platelegs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Adamant Platebody",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Adamant Platebody",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Dagger",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Dagger",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Throwing Knife",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Throwing Knife",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Arrowtips",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Arrowtips",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Gloves",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Gloves",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Scimitar",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Scimitar",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Helmet",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Helmet",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Battleaxe",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Battleaxe",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Javelin Heads",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Javelin Heads",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Shield",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Shield",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune 2H Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune 2H Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Crossbow Head",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Crossbow Head",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Platelegs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Platelegs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Rune Platebody",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Rune Platebody",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Dagger",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Dagger",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Throwing Knife",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Throwing Knife",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Arrowtips",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Arrowtips",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Gloves",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Gloves",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Scimitar",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Scimitar",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Helmet",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Helmet",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Battleaxe",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Battleaxe",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Javelin Heads",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Javelin Heads",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Boots",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Boots",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Shield",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Shield",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon 2H Sword",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon 2H Sword",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Crossbow Head",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Crossbow Head",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Platelegs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Platelegs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Smithing",
+        "Dragon Platebody",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Smithing",
+    "",
+    "Dragon Platebody",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
