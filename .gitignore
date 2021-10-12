@@ -131,3 +131,4 @@ dmypy.json
 # .txt files
 .txt
 credentials.json
+token.json
