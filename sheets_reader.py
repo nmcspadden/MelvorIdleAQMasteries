@@ -39,7 +39,7 @@ resource_map = {
     "Summoning": {"headers": "I4:I23", "values": "AL4:AL23"},
 }
 
-global_resource_count = dict()
+global_resource_count = {"Global": {}}
 
 
 def generate_creds():
@@ -82,6 +82,7 @@ def main():
     creds = generate_creds()
     # Get the values
     for skill in resource_map:
+        global_resource_count[skill] = {}
         print(f"***{skill.upper()}")
         headers = get_range_from_sheet(
             creds, f"{skill}!{resource_map[skill]['headers']}"
@@ -101,9 +102,14 @@ def main():
                     .replace(",", "")
                     .replace("-", "0")
                 )
-                if resource not in global_resource_count:
-                    global_resource_count[resource] = 0
-                global_resource_count[resource] += count
+                # Add to individual skill key
+                if resource not in global_resource_count[skill]:
+                    global_resource_count[skill][resource] = 0
+                global_resource_count[skill][resource] += count
+                # Add to global skill group
+                if resource not in global_resource_count["Global"]:
+                    global_resource_count["Global"][resource] = 0
+                global_resource_count["Global"][resource] += count
                 if count:  # only print out ones with values
                     print(f"{resource}: {count}")
 
