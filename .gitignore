@@ -132,3 +132,4 @@ dmypy.json
 .txt
 credentials.json
 token.json
+resources.json
