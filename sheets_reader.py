@@ -91,21 +91,21 @@ def main():
         if not headers or not values:
             print("No data found.")
         else:
-            print("Type, Count:")
             for h_row, v_row in zip(headers, values):
                 # Strip out the commas and replace the empty cells with 0
                 resource = str(h_row[0])
                 count = int(
                     v_row[0]
-                    .replace("Don't craft - use pool.", "0") # for Summoning
-                    .replace("Craft for mastery pool XP.", "0") # for Summoning
+                    .replace("Don't craft - use pool.", "0")  # for Summoning
+                    .replace("Craft for mastery pool XP.", "0")  # for Summoning
                     .replace(",", "")
                     .replace("-", "0")
                 )
                 if resource not in global_resource_count:
                     global_resource_count[resource] = 0
                 global_resource_count[resource] += count
-                print(f"{resource}: {count}")
+                if count:  # only print out ones with values
+                    print(f"{resource}: {count}")
 
     # Write global resource count to disk
     with open("resources.json", "w") as f:
@@ -114,4 +114,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-# [END sheets_quickstart]
