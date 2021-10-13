@@ -18,6 +18,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 import json
+import itertools
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
@@ -36,7 +37,19 @@ resource_map = {
         "headers": "AK4:AK28",
         "values": "AL4:AF28",
     },  # this one has a "next page" option...
-    "Summoning": {"headers": "I4:I23", "values": "AL4:AL23"},
+    "Summoning": {"headers": "Summoning_Name", "values": "AL4:AL23"},
+    "Firemaking": {"headers": "Firemaking_Name", "values": "W5:W13"},
+}
+
+herblore_map = {
+    "headers": "Herblore_Name",
+    "ingredient_1": "Herblore_Ingredient1",
+    "ingredient_2": "Herblore_Ingredient2",
+    "ingredient_3": "Herblore_Ingredient3",
+    "ingredientamt_1": "Herblore_IngredientAmount1",
+    "ingredientamt_2": "Herblore_IngredientAmount2",
+    "ingredientamt_3": "Herblore_IngredientAmount3",
+    "mastery_resources": "AG4:AG29",
 }
 
 global_resource_count = {"Global": {}}
@@ -75,9 +88,79 @@ def get_range_from_sheet(creds, range_string):
     return result.get("values", [])
 
 
+def calculate_herblore_ingredients(ingredient, amount, count):
+    """Calculate the number of ingredients required for 99 mastery"""
+    skill = "Herblore"
+    fixed_count = int(count.replace(",", "").replace("-", "0"))
+    if fixed_count == 0 or int(amount) == 0:
+        return 0
+    actual_amount = int(fixed_count) * int(amount)
+    if ingredient not in global_resource_count[skill]:
+        global_resource_count[skill][ingredient] = 0
+    # Actual resource cost is "ingamt" * mastery count to get to 99
+    global_resource_count[skill][ingredient] += actual_amount
+    # Add to global skill group
+    if ingredient not in global_resource_count["Global"]:
+        global_resource_count["Global"][ingredient] = 0
+    global_resource_count["Global"][ingredient] += actual_amount
+    return actual_amount
+
+def get_herblore(creds):
+    """Herblore is a special case because each item has two ingredients."""
+    skill = "Herblore"
+    global_resource_count[skill] = {}
+    print(f"***{skill.upper()}")
+    service = build("sheets", "v4", credentials=creds)
+
+    # Call the Sheets API
+    sheet = service.spreadsheets()
+    result = (
+        sheet.values()
+        .batchGet(
+            spreadsheetId=MELVOR_RATES_RESOURCES_COPY,
+            ranges=[
+                f"{skill}!{herblore_map['headers']}",
+                f"{skill}!{herblore_map['ingredient_1']}",
+                f"{skill}!{herblore_map['ingredientamt_1']}",
+                f"{skill}!{herblore_map['ingredient_2']}",
+                f"{skill}!{herblore_map['ingredientamt_2']}",
+                f"{skill}!{herblore_map['ingredient_3']}",
+                f"{skill}!{herblore_map['ingredientamt_3']}",
+                f"{skill}!{herblore_map['mastery_resources']}",
+            ],
+        )
+        .execute()
+    )
+    values = result.get("valueRanges", [])
+    headers = itertools.chain.from_iterable(values[0]["values"])
+    ingredients_1 = itertools.chain.from_iterable(values[1]["values"])
+    ingredientsamts_1 = itertools.chain.from_iterable(values[2]["values"])
+    ingredients_2 = itertools.chain.from_iterable(values[3]["values"])
+    ingredientsamts_2 = itertools.chain.from_iterable(values[4]["values"])
+    ingredients_3 = itertools.chain.from_iterable(values[5]["values"])
+    ingredientsamts_3 = itertools.chain.from_iterable(values[6]["values"])
+    counts = itertools.chain.from_iterable(values[7]["values"])
+    for potion, ing1, ingamt1, ing2, ingamt2, ing3, ingamt3, count in zip(headers, ingredients_1, ingredientsamts_1, ingredients_2, ingredientsamts_2, ingredients_3, ingredientsamts_3, counts):
+        print(f"Potion: {potion}")
+        # First ingredient
+        actual_amount_1 = calculate_herblore_ingredients(ing1, ingamt1, count)
+        print(f"{ing1}: {actual_amount_1}")
+        # Second ingredient
+        if ing2 == "-":
+            # if there's only one ingredient, next potion
+            # there is never a case where this no second ingredient but is a third
+            continue
+        actual_amount_2 = calculate_herblore_ingredients(ing2, ingamt2, count)
+        print(f"{ing2}: {actual_amount_2}")
+        # Third ingredient
+        if ing3 == "-":
+            continue
+        actual_amount_3 = calculate_herblore_ingredients(ing3, ingamt3, count)
+        print(f"{ing3}: {actual_amount_3}")
+
+
 def main():
-    """Shows basic usage of the Sheets API.
-    Prints values from a sample spreadsheet.
+    """Use the Rate and Resources spreadsheet to calculate resources needed for 99 mastery
     """
     creds = generate_creds()
     # Get the values
@@ -107,11 +190,16 @@ def main():
                     global_resource_count[skill][resource] = 0
                 global_resource_count[skill][resource] += count
                 # Add to global skill group
+                if count == 0:
+                    # Don't bother adding 0s to the global count
+                    continue
                 if resource not in global_resource_count["Global"]:
                     global_resource_count["Global"][resource] = 0
                 global_resource_count["Global"][resource] += count
-                if count:  # only print out ones with values
-                    print(f"{resource}: {count}")
+                print(f"{resource}: {count}")
+
+    # Herblore is a special case because there are multiple ingredients required per item
+    get_herblore(creds)
 
     # Write global resource count to disk
     with open("resources.json", "w") as f:
