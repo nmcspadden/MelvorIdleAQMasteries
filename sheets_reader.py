@@ -24,7 +24,7 @@ import itertools
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
 # The ID and range of a sample spreadsheet.
-MELVOR_RATES_RESOURCES_COPY = "1PhHFqj8TaPULE2oGOdMwYHrpCFTrOJ6Ceg6cstjKBII"
+MELVOR_RATES_RESOURCES_COPY = "1RZSI2L7R_tCm83VbMe4sobHEh7kpgdVzDAnbrb7rJi4"
 SAMPLE_RANGE_NAME = "Runecrafting!AH4:AI20"
 
 resource_map = {
@@ -175,6 +175,8 @@ def get_summoning(values):
     """Summoning requires parsing out the results from a single column"""
     skill = "Summoning"
     for v_row in values:
+        if v_row[0] == "-":
+            continue
         first_pass_values = v_row[0].split(", and ")
         # ['60,056 Dragon Bones', '108,100 Red, 84,078 Blue, 60,055 Gold Shards']
         shards = first_pass_values[1].split(", ")
@@ -200,10 +202,8 @@ def get_summoning(values):
             if " Shards" not in shard:
                 shard += " Shards"
             shardmap[shard] += int(count)
-            print(f"{shard}: {count}")
             reslist.append((shard, count))
         for resource, count in reslist:
-            print(f"* {resource} {count}")
             # Add to individual skill key
             if resource not in global_resource_count[skill]:
                 global_resource_count[skill][resource] = 0
