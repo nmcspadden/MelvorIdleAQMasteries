@@ -28,3 +28,16 @@ Using Python 3.10 on any platform, simply execute each of the skill python files
 
   python3.exe smithing.py
   /usr/local/bin/python3 smithing.py
+
+# Rate & Resource Calculator Sheet Reader
+If you use Kidbiz's [Rate & Resource Calculator](https://docs.google.com/spreadsheets/d/1iOafXHZponuxGm-p95sHLGQpanVtetCnL8h9kjFFX18/edit?usp=sharing), you can use sheets_reader.py to read in the mastery requirements and generate a JSON dump of all the required resources.
+
+Make a personal copy of the spreadsheet, and then copy the SheetID, which is the big string of characters after the `/d/` and before the `/edit?` in the URL:
+```
+  https://docs.google.com/spreadsheets/d/THIS_IS_THE_SHEET_ID/edit?usp=sharing
+```
+
+Paste this sheet ID into the `MELVOR_RATES_RESOURCES_COPY` variable in sheets_reader.py, and then run it with Python 3.10. You will almost certainly have to authenticate the script to run against Google APIs.
+
+## Output
+It produces a "resources.json" file which contains a list all ingredients you'll need to gather (or produce) in order to hit 99 mastery in the manufacturing skills. The "Global" section is just a list of all ingredients total, the others are per-skill.
