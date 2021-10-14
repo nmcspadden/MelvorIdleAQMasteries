@@ -128,8 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# .txt files
-.txt
+# Generated files
 credentials.json
 token.json
-resources.json
+*resources.json
