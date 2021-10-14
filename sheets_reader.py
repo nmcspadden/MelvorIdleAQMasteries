@@ -24,7 +24,7 @@ import itertools
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
 # The ID and range of a sample spreadsheet.
-MELVOR_RATES_RESOURCES_COPY = "1s4dhrUKTgGZ_nVe_x0bR3Olmcwijp_ta9kZmTVzZDVo"
+MELVOR_RATES_RESOURCES_COPY = "1PhHFqj8TaPULE2oGOdMwYHrpCFTrOJ6Ceg6cstjKBII"
 SAMPLE_RANGE_NAME = "Runecrafting!AH4:AI20"
 
 resource_map = {
@@ -37,7 +37,10 @@ resource_map = {
         "headers": "AK4:AK28",
         "values": "AL4:AF28",
     },  # this one has a "next page" option...
-    "Summoning": {"headers": "Summoning_Name", "values": "AL4:AL23"},
+    "Summoning": {
+        "headers": "Summoning_Name",
+        "values": "AL4:AL23",
+    },  # the resources here are combined in the values
     "Firemaking": {"headers": "Firemaking_Name", "values": "W5:W13"},
 }
 
@@ -105,11 +108,11 @@ def calculate_herblore_ingredients(ingredient, amount, count):
     global_resource_count["Global"][ingredient] += actual_amount
     return actual_amount
 
+
 def get_herblore(creds):
     """Herblore is a special case because each item has two ingredients."""
     skill = "Herblore"
     global_resource_count[skill] = {}
-    print(f"***{skill.upper()}")
     service = build("sheets", "v4", credentials=creds)
 
     # Call the Sheets API
@@ -140,7 +143,16 @@ def get_herblore(creds):
     ingredients_3 = itertools.chain.from_iterable(values[5]["values"])
     ingredientsamts_3 = itertools.chain.from_iterable(values[6]["values"])
     counts = itertools.chain.from_iterable(values[7]["values"])
-    for potion, ing1, ingamt1, ing2, ingamt2, ing3, ingamt3, count in zip(headers, ingredients_1, ingredientsamts_1, ingredients_2, ingredientsamts_2, ingredients_3, ingredientsamts_3, counts):
+    for potion, ing1, ingamt1, ing2, ingamt2, ing3, ingamt3, count in zip(
+        headers,
+        ingredients_1,
+        ingredientsamts_1,
+        ingredients_2,
+        ingredientsamts_2,
+        ingredients_3,
+        ingredientsamts_3,
+        counts,
+    ):
         print(f"Potion: {potion}")
         # First ingredient
         actual_amount_1 = calculate_herblore_ingredients(ing1, ingamt1, count)
@@ -159,9 +171,55 @@ def get_herblore(creds):
         print(f"{ing3}: {actual_amount_3}")
 
 
+def get_summoning(values):
+    """Summoning requires parsing out the results from a single column"""
+    skill = "Summoning"
+    for v_row in values:
+        first_pass_values = v_row[0].split(", and ")
+        # ['60,056 Dragon Bones', '108,100 Red, 84,078 Blue, 60,055 Gold Shards']
+        shards = first_pass_values[1].split(", ")
+        # ['108,100 Red', '84,078 Blue', '60,055 Gold Shards']
+        shardmap = {
+            "Red Shards": 0,
+            "Green Shards": 0,
+            "Blue Shards": 0,
+            "Silver Shards": 0,
+            "Gold Shards": 0,
+            "Black Shards": 0,
+        }
+        reslist = []
+        # Strip out the commas and replace the empty cells with 0
+        resource_name = first_pass_values[0].split(" ", 1)[1]
+        resource_count = int(first_pass_values[0].split(" ", 1)[0].replace(",", "").replace("-", "0"))
+        reslist.append((resource_name, resource_count))
+        print(f"{resource_name}: {resource_count}")
+        for color in shards:
+            shard_split = color.split(" ")
+            count = int(shard_split[0].replace(",", ""))
+            shard = shard_split[1]
+            if " Shards" not in shard:
+                shard += " Shards"
+            shardmap[shard] += int(count)
+            print(f"{shard}: {count}")
+            reslist.append((shard, count))
+        for resource, count in reslist:
+            print(f"* {resource} {count}")
+            # Add to individual skill key
+            if resource not in global_resource_count[skill]:
+                global_resource_count[skill][resource] = 0
+            global_resource_count[skill][resource] += count
+            # Add to global skill group
+            if count == 0:
+                # Don't bother adding 0s to the global count
+                continue
+            if resource not in global_resource_count["Global"]:
+                global_resource_count["Global"][resource] = 0
+            global_resource_count["Global"][resource] += count
+            print(f"{resource}: {count}")
+
+
 def main():
-    """Use the Rate and Resources spreadsheet to calculate resources needed for 99 mastery
-    """
+    """Use the Rate and Resources spreadsheet to calculate resources needed for 99 mastery"""
     creds = generate_creds()
     # Get the values
     for skill in resource_map:
@@ -174,6 +232,12 @@ def main():
 
         if not headers or not values:
             print("No data found.")
+        elif skill == "Summoning":
+            # Summoning is a special case where the list of ingredients is combined on each row
+            get_summoning(values)
+        elif skill == "Herblore":
+            # Herblore is a special case because there are multiple ingredients required per item
+            get_herblore(creds)
         else:
             for h_row, v_row in zip(headers, values):
                 # Strip out the commas and replace the empty cells with 0
@@ -197,9 +261,6 @@ def main():
                     global_resource_count["Global"][resource] = 0
                 global_resource_count["Global"][resource] += count
                 print(f"{resource}: {count}")
-
-    # Herblore is a special case because there are multiple ingredients required per item
-    get_herblore(creds)
 
     # Write global resource count to disk
     with open("resources.json", "w") as f:
