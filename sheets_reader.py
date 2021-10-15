@@ -24,7 +24,7 @@ import itertools
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
 # The ID and range of a sample spreadsheet.
-MELVOR_RATES_RESOURCES_COPY = "1RZSI2L7R_tCm83VbMe4sobHEh7kpgdVzDAnbrb7rJi4"
+MELVOR_RATES_RESOURCES_COPY = "1s4dhrUKTgGZ_nVe_x0bR3Olmcwijp_ta9kZmTVzZDVo"
 SAMPLE_RANGE_NAME = "Runecrafting!AH4:AI20"
 
 resource_map = {
@@ -175,7 +175,7 @@ def get_summoning(values):
     """Summoning requires parsing out the results from a single column"""
     skill = "Summoning"
     for v_row in values:
-        if v_row[0] == "-":
+        if v_row[0] == "-" or "Don't craft" in v_row[0] or "Craft for" in v_row[0]:
             continue
         first_pass_values = v_row[0].split(", and ")
         # ['60,056 Dragon Bones', '108,100 Red, 84,078 Blue, 60,055 Gold Shards']
@@ -192,7 +192,9 @@ def get_summoning(values):
         reslist = []
         # Strip out the commas and replace the empty cells with 0
         resource_name = first_pass_values[0].split(" ", 1)[1]
-        resource_count = int(first_pass_values[0].split(" ", 1)[0].replace(",", "").replace("-", "0"))
+        resource_count = int(
+            first_pass_values[0].split(" ", 1)[0].replace(",", "").replace("-", "0")
+        )
         reslist.append((resource_name, resource_count))
         print(f"{resource_name}: {resource_count}")
         for color in shards:
@@ -218,6 +220,31 @@ def get_summoning(values):
             print(f"{resource}: {count}")
 
 
+def get_skill(headers, values, skill):
+    for h_row, v_row in zip(headers, values):
+        # Strip out the commas and replace the empty cells with 0
+        resource = str(h_row[0])
+        count = int(
+            v_row[0]
+            .replace("Don't craft - use pool.", "0")  # for Summoning
+            .replace("Craft for mastery pool XP.", "0")  # for Summoning
+            .replace(",", "")
+            .replace("-", "0")
+        )
+        # Add to individual skill key
+        if resource not in global_resource_count[skill]:
+            global_resource_count[skill][resource] = 0
+        global_resource_count[skill][resource] += count
+        # Add to global skill group
+        if count == 0:
+            # Don't bother adding 0s to the global count
+            continue
+        if resource not in global_resource_count["Global"]:
+            global_resource_count["Global"][resource] = 0
+        global_resource_count["Global"][resource] += count
+        print(f"{resource}: {count}")
+
+
 def main():
     """Use the Rate and Resources spreadsheet to calculate resources needed for 99 mastery"""
     creds = generate_creds()
@@ -239,28 +266,7 @@ def main():
             # Herblore is a special case because there are multiple ingredients required per item
             get_herblore(creds)
         else:
-            for h_row, v_row in zip(headers, values):
-                # Strip out the commas and replace the empty cells with 0
-                resource = str(h_row[0])
-                count = int(
-                    v_row[0]
-                    .replace("Don't craft - use pool.", "0")  # for Summoning
-                    .replace("Craft for mastery pool XP.", "0")  # for Summoning
-                    .replace(",", "")
-                    .replace("-", "0")
-                )
-                # Add to individual skill key
-                if resource not in global_resource_count[skill]:
-                    global_resource_count[skill][resource] = 0
-                global_resource_count[skill][resource] += count
-                # Add to global skill group
-                if count == 0:
-                    # Don't bother adding 0s to the global count
-                    continue
-                if resource not in global_resource_count["Global"]:
-                    global_resource_count["Global"][resource] = 0
-                global_resource_count["Global"][resource] += count
-                print(f"{resource}: {count}")
+            get_skill(headers, values, skill)
 
     # Write global resource count to disk
     with open("resources.json", "w") as f:
