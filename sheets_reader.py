@@ -44,6 +44,15 @@ resource_map = {
     "Firemaking": {"headers": "Firemaking_Name", "values": "W5:W13"},
 }
 
+gathering_map = {
+    "Woodcutting": "Woodcutting_Name",
+    "Fishing": "Fishing_Name",
+    "Mining": "Mining_Name",
+    "Thieving": "Thieving_Name",
+    "Farming": "Farming_Name", # this one has some header rows that have no values?
+    "Agility": "Agility_Name",
+}
+
 herblore_map = {
     "headers": "Herblore_Name",
     "ingredient_1": "Herblore_Ingredient1",
@@ -249,7 +258,7 @@ def get_skill(headers, values, skill):
 def main():
     """Use the Rate and Resources spreadsheet to calculate resources needed for 99 mastery"""
     creds = generate_creds()
-    # Get the values
+    # Get the necessary ingredients for crafting
     for skill in resource_map:
         global_resource_count[skill] = {}
         print(f"***{skill.upper()}")
