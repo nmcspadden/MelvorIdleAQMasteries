@@ -153,22 +153,25 @@ def get_herblore(creds):
         ingredientsamts_3,
         counts,
     ):
-        print(f"Potion: {potion}")
+        # print(f"Potion: {potion}")
         # First ingredient
         actual_amount_1 = calculate_herblore_ingredients(ing1, ingamt1, count)
-        print(f"{ing1}: {actual_amount_1}")
+        if actual_amount_1 > 0:
+            print(f"{ing1}: {actual_amount_1}")
         # Second ingredient
         if ing2 == "-":
             # if there's only one ingredient, next potion
             # there is never a case where this no second ingredient but is a third
             continue
         actual_amount_2 = calculate_herblore_ingredients(ing2, ingamt2, count)
-        print(f"{ing2}: {actual_amount_2}")
+        if actual_amount_2 > 0:
+            print(f"{ing2}: {actual_amount_2}")
         # Third ingredient
         if ing3 == "-":
             continue
         actual_amount_3 = calculate_herblore_ingredients(ing3, ingamt3, count)
-        print(f"{ing3}: {actual_amount_3}")
+        if actual_amount_3 > 0:
+            print(f"{ing3}: {actual_amount_3}")
 
 
 def get_summoning(values):
@@ -226,8 +229,6 @@ def get_skill(headers, values, skill):
         resource = str(h_row[0])
         count = int(
             v_row[0]
-            .replace("Don't craft - use pool.", "0")  # for Summoning
-            .replace("Craft for mastery pool XP.", "0")  # for Summoning
             .replace(",", "")
             .replace("-", "0")
         )
