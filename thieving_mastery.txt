@@ -1,0 +1,386 @@
+[
+  [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Man",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Man",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Woman",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Woman",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Golbin",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Golbin",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Golbin Chief",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Golbin Chief",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Bandit Thug",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Bandit Thug",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Marauder",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Marauder",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Merchant",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Merchant",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Bob the Farmer",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Bob the Farmer",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Assistant Cook",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Assistant Cook",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Chef",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Chef",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Dock Hand",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Dock Hand",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Fisherman",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Fisherman",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Troll",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Troll",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Cyclops",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Cyclops",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Lumberjack",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Lumberjack",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Miner",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Miner",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Squire",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Squire",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Knight",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Knight",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Acolyte",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Acolyte",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Wizard",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Wizard",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Court Jester",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Court Jester",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "Princess",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "Princess",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Thieving",
+        "King",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Thieving",
+    "",
+    "King",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
