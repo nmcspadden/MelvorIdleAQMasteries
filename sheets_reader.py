@@ -53,6 +53,19 @@ gathering_map = {
     "Agility": "Agility_Name",
 }
 
+cooking_map = {
+    "headers": "Cooking_Name",
+    "ingredient_1": "Cooking_Ingredient1",
+    "ingredient_2": "Cooking_Ingredient2",
+    "ingredient_3": "Cooking_Ingredient3",
+    "ingredient_4": "Cooking_Ingredient4",
+    "ingredientamt_1": "Cooking_IngredientAmount1",
+    "ingredientamt_2": "Cooking_IngredientAmount2",
+    "ingredientamt_3": "Cooking_IngredientAmount3",
+    "ingredientamt_4": "Cooking_IngredientAmount4",
+    "mastery_resources": "AI4:AI34",
+}
+
 herblore_map = {
     "headers": "Herblore_Name",
     "ingredient_1": "Herblore_Ingredient1",
@@ -100,9 +113,85 @@ def get_range_from_sheet(creds, range_string):
     return result.get("values", [])
 
 
-def calculate_herblore_ingredients(ingredient, amount, count):
+def get_cooking(creds):
+    """Cooking ingredients are also combined"""
+    skill = "Cooking"
+    global_resource_count[skill] = {}
+    service = build("sheets", "v4", credentials=creds)
+
+    # Call the Sheets API
+    sheet = service.spreadsheets()
+    result = (
+        sheet.values()
+        .batchGet(
+            spreadsheetId=MELVOR_RATES_RESOURCES_COPY,
+            ranges=[
+                f"{skill}!{cooking_map['headers']}",
+                f"{skill}!{cooking_map['ingredient_1']}",
+                f"{skill}!{cooking_map['ingredientamt_1']}",
+                f"{skill}!{cooking_map['ingredient_2']}",
+                f"{skill}!{cooking_map['ingredientamt_2']}",
+                f"{skill}!{cooking_map['ingredient_3']}",
+                f"{skill}!{cooking_map['ingredientamt_3']}",
+                f"{skill}!{cooking_map['ingredient_4']}",
+                f"{skill}!{cooking_map['ingredientamt_4']}",
+                f"{skill}!{cooking_map['mastery_resources']}",
+            ],
+        )
+        .execute()
+    )
+    values = result.get("valueRanges", [])
+    headers = itertools.chain.from_iterable(values[0]["values"])
+    ingredients_1 = itertools.chain.from_iterable(values[1]["values"])
+    ingredientsamts_1 = itertools.chain.from_iterable(values[2]["values"])
+    ingredients_2 = itertools.chain.from_iterable(values[3]["values"])
+    ingredientsamts_2 = itertools.chain.from_iterable(values[4]["values"])
+    ingredients_3 = itertools.chain.from_iterable(values[5]["values"])
+    ingredientsamts_3 = itertools.chain.from_iterable(values[6]["values"])
+    ingredients_4 = itertools.chain.from_iterable(values[7]["values"])
+    ingredientsamts_4 = itertools.chain.from_iterable(values[8]["values"])
+    counts = itertools.chain.from_iterable(values[9]["values"])
+    for potion, ing1, ingamt1, ing2, ingamt2, ing3, ingamt3, ing4, ingamt4, count in zip(
+        headers,
+        ingredients_1,
+        ingredientsamts_1,
+        ingredients_2,
+        ingredientsamts_2,
+        ingredients_3,
+        ingredientsamts_3,
+        ingredients_4,
+        ingredientsamts_4,
+        counts,
+    ):
+        # print(f"Potion: {potion}")
+        # First ingredient
+        actual_amount_1 = calculate_ingredients(skill, ing1, ingamt1, count)
+        if actual_amount_1 > 0:
+            print(f"{ing1}: {actual_amount_1}")
+        # Second ingredient
+        if ing2 == "-":
+            # if there's only one ingredient, next potion
+            # there is never a case where this no second ingredient but is a third
+            continue
+        actual_amount_2 = calculate_ingredients(skill, ing2, ingamt2, count)
+        if actual_amount_2 > 0:
+            print(f"{ing2}: {actual_amount_2}")
+        # Third ingredient
+        if ing3 == "-":
+            continue
+        actual_amount_3 = calculate_ingredients(skill, ing3, ingamt3, count)
+        if actual_amount_3 > 0:
+            print(f"{ing3}: {actual_amount_3}")
+        # Fourth ingredient
+        if ing4 == "-":
+            continue
+        actual_amount_4 = calculate_ingredients(skill, ing4, ingamt4, count)
+        if actual_amount_4 > 0:
+            print(f"{ing3}: {actual_amount_3}")
+
+
+def calculate_ingredients(skill, ingredient, amount, count):
     """Calculate the number of ingredients required for 99 mastery"""
-    skill = "Herblore"
     fixed_count = int(count.replace(",", "").replace("-", "0"))
     if fixed_count == 0 or int(amount) == 0:
         return 0
@@ -164,7 +253,7 @@ def get_herblore(creds):
     ):
         # print(f"Potion: {potion}")
         # First ingredient
-        actual_amount_1 = calculate_herblore_ingredients(ing1, ingamt1, count)
+        actual_amount_1 = calculate_ingredients(skill, ing1, ingamt1, count)
         if actual_amount_1 > 0:
             print(f"{ing1}: {actual_amount_1}")
         # Second ingredient
@@ -172,13 +261,13 @@ def get_herblore(creds):
             # if there's only one ingredient, next potion
             # there is never a case where this no second ingredient but is a third
             continue
-        actual_amount_2 = calculate_herblore_ingredients(ing2, ingamt2, count)
+        actual_amount_2 = calculate_ingredients(skill, ing2, ingamt2, count)
         if actual_amount_2 > 0:
             print(f"{ing2}: {actual_amount_2}")
         # Third ingredient
         if ing3 == "-":
             continue
-        actual_amount_3 = calculate_herblore_ingredients(ing3, ingamt3, count)
+        actual_amount_3 = calculate_ingredients(skill, ing3, ingamt3, count)
         if actual_amount_3 > 0:
             print(f"{ing3}: {actual_amount_3}")
 
@@ -275,6 +364,9 @@ def main():
         elif skill == "Herblore":
             # Herblore is a special case because there are multiple ingredients required per item
             get_herblore(creds)
+        elif skill == "Cooking":
+            # Cooking also has multipe ingredients
+            get_cooking(creds)
         else:
             get_skill(headers, values, skill)
 
