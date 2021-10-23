@@ -44,15 +44,6 @@ resource_map = {
     "Firemaking": {"headers": "Firemaking_Name", "values": "W5:W13"},
 }
 
-gathering_map = {
-    "Woodcutting": "Woodcutting_Name",
-    "Fishing": "Fishing_Name",
-    "Mining": "Mining_Name",
-    "Thieving": "Thieving_Name",
-    "Farming": "Farming_Name", # this one has some header rows that have no values?
-    "Agility": "Agility_Name",
-}
-
 cooking_map = {
     "headers": "Cooking_Name",
     "ingredient_1": "Cooking_Ingredient1",
@@ -76,6 +67,8 @@ herblore_map = {
     "ingredientamt_3": "Herblore_IngredientAmount3",
     "mastery_resources": "AG4:AG29",
 }
+
+global_resource_db = {}
 
 global_resource_count = {"Global": {}}
 
@@ -351,11 +344,14 @@ def main():
     for skill in resource_map:
         global_resource_count[skill] = {}
         print(f"***{skill.upper()}")
+        items = get_range_from_sheet(
+            creds, f"{skill}_Name"
+        )
         headers = get_range_from_sheet(
             creds, f"{skill}!{resource_map[skill]['headers']}"
         )
         values = get_range_from_sheet(creds, f"{skill}!{resource_map[skill]['values']}")
-
+        global_resource_db[skill] = [item for sublist in items for item in sublist]
         if not headers or not values:
             print("No data found.")
         elif skill == "Summoning":
@@ -370,6 +366,8 @@ def main():
         else:
             get_skill(headers, values, skill)
 
+    with open("resourcedb.json", "w") as f:
+        json.dump(global_resource_db, f, indent=2)
     # Write global resource count to disk
     with open("resources.json", "w") as f:
         json.dump(global_resource_count, f, indent=2)
