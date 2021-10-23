@@ -77,6 +77,15 @@ herblore_map = {
     "mastery_resources": "AG4:AG29",
 }
 
+mastery_item = [
+    "Mastery Level",
+    "SKILL",
+    "",
+    "CURRENT_ITEM",
+    "99",
+    [["Start Skill", "SKILL", "NEXT_ITEM", "", ""]],
+]
+
 global_resource_db = {}
 
 global_resource_count = {"Global": {}}
@@ -387,6 +396,17 @@ def main():
     # Write global resource count to disk
     with open("resources.json", "w") as f:
         json.dump(global_resource_count, f, indent=2)
+
+    print("**** Generating Action Queues")
+    # Now the fun part - generate Melvor Action Queue KSON for gathering all the mats
+    # The list of needed resources is in global_resource_count["Global"]
+    # The map of resources -> skill used to gather them is in global_resources_db
+    # Some items are dropped from non-gathered sources, so they won't be represented
+    for item in global_resource_count["Global"]:
+        for skill, skill_items in global_resource_db.items():
+            if item in skill_items:
+                # generate the json blob
+                print(f"{skill}: {item}")
 
 
 if __name__ == "__main__":
