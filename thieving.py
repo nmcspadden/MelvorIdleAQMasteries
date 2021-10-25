@@ -5,7 +5,6 @@ import itertools
 
 SKILL = "Thieving"
 
-# Standard Runes
 targets = [
     "Man",
     "Woman",

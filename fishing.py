@@ -5,7 +5,6 @@ import itertools
 
 SKILL = "Fishing"
 
-# Standard Runes
 raw_fish = [
     "Shrimp",
     "Lobster",
