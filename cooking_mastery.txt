@@ -1,0 +1,514 @@
+[
+  [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Shrimp",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Shrimp",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Beef",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Beef",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Sardine",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Sardine",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Herring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Herring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Seahorse",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Seahorse",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Trout",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Trout",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Salmon",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Salmon",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Lobster",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Lobster",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Swordfish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Swordfish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Anglerfish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Anglerfish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Fanfish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Fanfish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Crab",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Crab",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Carp",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Carp",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Shark",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Shark",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Cave Fish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Cave Fish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Manta Ray",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Manta Ray",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Whale",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Whale",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Bread",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Bread",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Chicken",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Chicken",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Plain Pizza Slice",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Plain Pizza Slice",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Beef Pie",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Beef Pie",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Meat Pizza Slice",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Meat Pizza Slice",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Strawberry Cupcake",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Strawberry Cupcake",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Cherry Cupcake",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Cherry Cupcake",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Apple Pie",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Apple Pie",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Strawberry Cake",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Strawberry Cake",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Carrot Cake",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Carrot Cake",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Basic Soup",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Basic Soup",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Hearty Soup",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Hearty Soup",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Cream Corn Soup",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Cream Corn Soup",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Cooking",
+        "Chicken Soup",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Cooking",
+    "",
+    "Chicken Soup",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
