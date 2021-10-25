@@ -1,0 +1,386 @@
+[
+  [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Shrimp",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Shrimp",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Lobster",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Lobster",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Crab",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Crab",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Sardine",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Sardine",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Herring",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Herring",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Carp",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Carp",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Blowfish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Blowfish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Poison Fish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Poison Fish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Anglerfish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Anglerfish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Cave Fish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Cave Fish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Trout",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Trout",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Salmon",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Salmon",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Fanfish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Fanfish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Swordfish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Swordfish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Manta Ray",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Manta Ray",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Shark",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Shark",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Whale",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Whale",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Seahorse",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Seahorse",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Skeleton Fish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Skeleton Fish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Raw Magic Fish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Raw Magic Fish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Leaping Leaping Trout",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Leaping Leaping Trout",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Leaping Salmon",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Leaping Salmon",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Fishing",
+        "Leaping Broad Fish",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Fishing",
+    "",
+    "Leaping Broad Fish",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
