@@ -1,0 +1,434 @@
+[
+  [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Melee Accuracy Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Melee Accuracy Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Melee Evasion Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Melee Evasion Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Ranged Assistance Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Ranged Assistance Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Magic Assistance Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Magic Assistance Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Regeneration Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Regeneration Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Ranged Strength Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Ranged Strength Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Lucky Herb Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Lucky Herb Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Divine Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Divine Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Melee Strength Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Melee Strength Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Magic Damage Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Magic Damage Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Diamond Luck Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Diamond Luck Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Damage Reduction Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Damage Reduction Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Bird Nests Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Bird Nests Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Controlled Heat Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Controlled Heat Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Generous Cook Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Generous Cook Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Seeing Gold Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Seeing Gold Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Fishermans Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Fishermans Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Skilled Fletching Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Skilled Fletching Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Gentle Hands Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Gentle Hands Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Crafting Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Crafting Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Perfect Swing Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Perfect Swing Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Necromancer Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Necromancer Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Performance Enhancing Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Performance Enhancing Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Elemental Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Elemental Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Herblore Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Herblore Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Herblore",
+        "Generous Harvest Potion",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Herblore",
+    "",
+    "Generous Harvest Potion",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
