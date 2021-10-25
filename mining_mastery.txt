@@ -1,0 +1,194 @@
+[
+  [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Mining",
+        "Rune Essence",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Mining",
+    "",
+    "Rune Essence",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Mining",
+        "Copper",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Mining",
+    "",
+    "Copper",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Mining",
+        "Tin",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Mining",
+    "",
+    "Tin",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Mining",
+        "Iron",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Mining",
+    "",
+    "Iron",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Mining",
+        "Coal",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Mining",
+    "",
+    "Coal",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Mining",
+        "Silver",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Mining",
+    "",
+    "Silver",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Mining",
+        "Gold",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Mining",
+    "",
+    "Gold",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Mining",
+        "Mithril",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Mining",
+    "",
+    "Mithril",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Mining",
+        "Adamantite",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Mining",
+    "",
+    "Adamantite",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Mining",
+        "Runite",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Mining",
+    "",
+    "Runite",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Mining",
+        "Dragonite",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Mining",
+    "",
+    "Dragonite",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
