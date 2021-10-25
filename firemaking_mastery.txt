@@ -1,0 +1,162 @@
+[
+  [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Firemaking",
+        "Normal Logs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Firemaking",
+    "",
+    "Normal Logs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Firemaking",
+        "Oak Logs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Firemaking",
+    "",
+    "Oak Logs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Firemaking",
+        "Willow Logs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Firemaking",
+    "",
+    "Willow Logs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Firemaking",
+        "Teak Logs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Firemaking",
+    "",
+    "Teak Logs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Firemaking",
+        "Maple Logs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Firemaking",
+    "",
+    "Maple Logs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Firemaking",
+        "Mahogany Logs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Firemaking",
+    "",
+    "Mahogany Logs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Firemaking",
+        "Yew Logs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Firemaking",
+    "",
+    "Yew Logs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Firemaking",
+        "Magic Logs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Firemaking",
+    "",
+    "Magic Logs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Firemaking",
+        "Redwood Logs",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Firemaking",
+    "",
+    "Redwood Logs",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
