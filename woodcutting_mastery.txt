@@ -1,0 +1,162 @@
+[
+  [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Woodcutting",
+        "Normal Tree",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Woodcutting",
+    "",
+    "Normal Tree",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Woodcutting",
+        "Oak Tree",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Woodcutting",
+    "",
+    "Oak Tree",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Woodcutting",
+        "Willow Tree",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Woodcutting",
+    "",
+    "Willow Tree",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Woodcutting",
+        "Teak Tree",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Woodcutting",
+    "",
+    "Teak Tree",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Woodcutting",
+        "Maple Tree",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Woodcutting",
+    "",
+    "Maple Tree",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Woodcutting",
+        "Mahogany Tree",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Woodcutting",
+    "",
+    "Mahogany Tree",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Woodcutting",
+        "Yew Tree",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Woodcutting",
+    "",
+    "Yew Tree",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Woodcutting",
+        "Magic Tree",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Woodcutting",
+    "",
+    "Magic Tree",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Woodcutting",
+        "Redwood Tree",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Woodcutting",
+    "",
+    "Redwood Tree",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
