@@ -66,7 +66,7 @@ def generate_list(itemlist):
                 "",
                 grouping[0],
                 "99",
-                [["Start Skill", SKILL, grouping[1], "", ""]],
+                [["Start Skill", SKILL, "Active", grouping[1], ""]],
             ]
         )
     return mastery_list
@@ -78,7 +78,7 @@ itemlist.extend(recipes)
 
 # Manually add the starting point
 mastery_list.append(
-    ["Idle", "", "", "", "", [["Start Skill", SKILL, itemlist[0], "", ""]]]
+    ["Idle", "", "", "", "", [["Start Skill", SKILL, "Active", itemlist[0], ""]]]
 )
 
 # Generate the rest of the lists

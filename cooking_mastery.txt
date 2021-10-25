@@ -9,8 +9,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Shrimp",
-        "",
         ""
       ]
     ]
@@ -25,8 +25,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Beef",
-        "",
         ""
       ]
     ]
@@ -41,8 +41,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Sardine",
-        "",
         ""
       ]
     ]
@@ -57,8 +57,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Herring",
-        "",
         ""
       ]
     ]
@@ -73,8 +73,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Seahorse",
-        "",
         ""
       ]
     ]
@@ -89,8 +89,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Trout",
-        "",
         ""
       ]
     ]
@@ -105,8 +105,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Salmon",
-        "",
         ""
       ]
     ]
@@ -121,8 +121,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Lobster",
-        "",
         ""
       ]
     ]
@@ -137,8 +137,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Swordfish",
-        "",
         ""
       ]
     ]
@@ -153,8 +153,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Anglerfish",
-        "",
         ""
       ]
     ]
@@ -169,8 +169,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Fanfish",
-        "",
         ""
       ]
     ]
@@ -185,8 +185,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Crab",
-        "",
         ""
       ]
     ]
@@ -201,8 +201,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Carp",
-        "",
         ""
       ]
     ]
@@ -217,8 +217,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Shark",
-        "",
         ""
       ]
     ]
@@ -233,8 +233,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Cave Fish",
-        "",
         ""
       ]
     ]
@@ -249,8 +249,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Manta Ray",
-        "",
         ""
       ]
     ]
@@ -265,8 +265,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Whale",
-        "",
         ""
       ]
     ]
@@ -281,8 +281,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Bread",
-        "",
         ""
       ]
     ]
@@ -297,8 +297,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Chicken",
-        "",
         ""
       ]
     ]
@@ -313,8 +313,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Plain Pizza Slice",
-        "",
         ""
       ]
     ]
@@ -329,8 +329,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Beef Pie",
-        "",
         ""
       ]
     ]
@@ -345,8 +345,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Meat Pizza Slice",
-        "",
         ""
       ]
     ]
@@ -361,8 +361,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Strawberry Cupcake",
-        "",
         ""
       ]
     ]
@@ -377,8 +377,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Cherry Cupcake",
-        "",
         ""
       ]
     ]
@@ -393,8 +393,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Apple Pie",
-        "",
         ""
       ]
     ]
@@ -409,8 +409,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Strawberry Cake",
-        "",
         ""
       ]
     ]
@@ -425,8 +425,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Carrot Cake",
-        "",
         ""
       ]
     ]
@@ -441,8 +441,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Basic Soup",
-        "",
         ""
       ]
     ]
@@ -457,8 +457,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Hearty Soup",
-        "",
         ""
       ]
     ]
@@ -473,8 +473,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Cream Corn Soup",
-        "",
         ""
       ]
     ]
@@ -489,8 +489,8 @@
       [
         "Start Skill",
         "Cooking",
+        "Active",
         "Chicken Soup",
-        "",
         ""
       ]
     ]
