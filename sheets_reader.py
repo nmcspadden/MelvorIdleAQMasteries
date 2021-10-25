@@ -77,6 +77,17 @@ herblore_map = {
     "mastery_resources": "AG4:AG29",
 }
 
+mastery_item = [
+    "Mastery Level",
+    "SKILL",
+    "",
+    "CURRENT_ITEM",
+    "99",
+    [["Start Skill", "SKILL", "NEXT_ITEM", "", ""]],
+]
+
+global_resource_db = {}
+
 global_resource_count = {"Global": {}}
 
 
@@ -347,15 +358,25 @@ def get_skill(headers, values, skill):
 def main():
     """Use the Rate and Resources spreadsheet to calculate resources needed for 99 mastery"""
     creds = generate_creds()
+    # Get all gathering-only item lists
+    for skill in gathering_map:
+        print(f"***{skill.upper()}")
+        items = get_range_from_sheet(
+            creds, f"{skill}_Name"
+        )
+        global_resource_db[skill] = [item for sublist in items for item in sublist]
     # Get the necessary ingredients for crafting
     for skill in resource_map:
         global_resource_count[skill] = {}
         print(f"***{skill.upper()}")
+        items = get_range_from_sheet(
+            creds, f"{skill}_Name"
+        )
         headers = get_range_from_sheet(
             creds, f"{skill}!{resource_map[skill]['headers']}"
         )
         values = get_range_from_sheet(creds, f"{skill}!{resource_map[skill]['values']}")
-
+        global_resource_db[skill] = [item for sublist in items for item in sublist]
         if not headers or not values:
             print("No data found.")
         elif skill == "Summoning":
@@ -370,9 +391,22 @@ def main():
         else:
             get_skill(headers, values, skill)
 
+    with open("resourcedb.json", "w") as f:
+        json.dump(global_resource_db, f, indent=2)
     # Write global resource count to disk
     with open("resources.json", "w") as f:
         json.dump(global_resource_count, f, indent=2)
+
+    print("**** Generating Action Queues")
+    # Now the fun part - generate Melvor Action Queue KSON for gathering all the mats
+    # The list of needed resources is in global_resource_count["Global"]
+    # The map of resources -> skill used to gather them is in global_resources_db
+    # Some items are dropped from non-gathered sources, so they won't be represented
+    for item in global_resource_count["Global"]:
+        for skill, skill_items in global_resource_db.items():
+            if item in skill_items:
+                # generate the json blob
+                print(f"{skill}: {item}")
 
 
 if __name__ == "__main__":

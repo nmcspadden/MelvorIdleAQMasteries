@@ -132,3 +132,4 @@ dmypy.json
 credentials.json
 token.json
 *resources.json
+.vscode/settings.json
