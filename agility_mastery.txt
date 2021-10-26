@@ -1,0 +1,1175 @@
+[
+  [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Build Agility Obstacle",
+        "1",
+        "Cargo Net",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Cargo Net",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "1",
+        "Rope Swing",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Rope Swing",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "1",
+        "Rope Climb",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Rope Climb",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "2",
+        "Rope Jump",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Rope Jump",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "2",
+        "Monkey Bars",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Monkey Bars",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "2",
+        "Balance Beam",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Balance Beam",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "3",
+        "Balance Seesaw",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Balance Seesaw",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "3",
+        "Pipe Climb",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Pipe Climb",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "3",
+        "Pipe Balance",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Pipe Balance",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "3",
+        "Pit Jump",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Pit Jump",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "3",
+        "Stepping Stones",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Stepping Stones",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "3",
+        "Burning Coals",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Burning Coals",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "4",
+        "Coal Stones",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Coal Stones",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "4",
+        "Mud Crawl",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Mud Crawl",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "4",
+        "Mud Dive",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Mud Dive",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "4",
+        "Cave Climb",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Cave Climb",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "4",
+        "Gap Jump",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Gap Jump",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "5",
+        "Rock Climb",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Rock Climb",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "5",
+        "Cliff Climb",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Cliff Climb",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "5",
+        "Cliff Balance",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Cliff Balance",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "5",
+        "Mountain Climb",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Mountain Climb",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "5",
+        "Tree Climb",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Tree Climb",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "5",
+        "Rooftop Run",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Rooftop Run",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "6",
+        "Tree Hop",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Tree Hop",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "6",
+        "Tree Balance",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Tree Balance",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "6",
+        "Rocky Waters",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Rocky Waters",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "6",
+        "Lake Swim",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Lake Swim",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "6",
+        "Raft Drifting",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Raft Drifting",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "6",
+        "Forest Trail",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Forest Trail",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "7",
+        "Spike Trap",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Spike Trap",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "7",
+        "Heat Trap",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Heat Trap",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "7",
+        "Boulder Trap",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Boulder Trap",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "7",
+        "Water Trap",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Water Trap",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "7",
+        "Freezing Trap",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Freezing Trap",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "8",
+        "Pipe Crawl",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Pipe Crawl",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "8",
+        "Raft Building",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Raft Building",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "8",
+        "Spike Jump",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Spike Jump",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "8",
+        "Tree Hang",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Tree Hang",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "8",
+        "A Lovely Jog",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "A Lovely Jog",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "8",
+        "Runic Trail",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Runic Trail",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "8",
+        "Sweltering Pools",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Sweltering Pools",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "9",
+        "Lava Jump",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Lava Jump",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "9",
+        "Water Jump",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Water Jump",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "9",
+        "Ice Jump",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Ice Jump",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "9",
+        "Cave Maze",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Cave Maze",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "9",
+        "Frozen Lake Crossing",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Frozen Lake Crossing",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "10",
+        "Waterfall",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Waterfall",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "10",
+        "Lava Waterfall Dodge",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Lava Waterfall Dodge",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "10",
+        "Boulder Move",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Boulder Move",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "10",
+        "Dragon Fight",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Agility",
+    "",
+    "Dragon Fight",
+    "99",
+    [
+      [
+        "Build Agility Obstacle",
+        "10",
+        "Ocean Rafting",
+        "",
+        ""
+      ],
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
