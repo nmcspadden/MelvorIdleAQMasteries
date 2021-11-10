@@ -25,7 +25,7 @@
       [
         "Start Skill",
         "Mining",
-        "Copper",
+        "Copper Ore",
         "",
         ""
       ]
@@ -35,13 +35,13 @@
     "Mastery Level",
     "Mining",
     "",
-    "Copper",
+    "Copper Ore",
     "99",
     [
       [
         "Start Skill",
         "Mining",
-        "Tin",
+        "Tin Ore",
         "",
         ""
       ]
@@ -51,13 +51,13 @@
     "Mastery Level",
     "Mining",
     "",
-    "Tin",
+    "Tin Ore",
     "99",
     [
       [
         "Start Skill",
         "Mining",
-        "Iron",
+        "Iron Ore",
         "",
         ""
       ]
@@ -67,13 +67,13 @@
     "Mastery Level",
     "Mining",
     "",
-    "Iron",
+    "Iron Ore",
     "99",
     [
       [
         "Start Skill",
         "Mining",
-        "Coal",
+        "Coal Ore",
         "",
         ""
       ]
@@ -83,13 +83,13 @@
     "Mastery Level",
     "Mining",
     "",
-    "Coal",
+    "Coal Ore",
     "99",
     [
       [
         "Start Skill",
         "Mining",
-        "Silver",
+        "Silver Ore",
         "",
         ""
       ]
@@ -99,13 +99,13 @@
     "Mastery Level",
     "Mining",
     "",
-    "Silver",
+    "Silver Ore",
     "99",
     [
       [
         "Start Skill",
         "Mining",
-        "Gold",
+        "Gold Ore",
         "",
         ""
       ]
@@ -115,13 +115,13 @@
     "Mastery Level",
     "Mining",
     "",
-    "Gold",
+    "Gold Ore",
     "99",
     [
       [
         "Start Skill",
         "Mining",
-        "Mithril",
+        "Mithril Ore",
         "",
         ""
       ]
@@ -131,13 +131,13 @@
     "Mastery Level",
     "Mining",
     "",
-    "Mithril",
+    "Mithril Ore",
     "99",
     [
       [
         "Start Skill",
         "Mining",
-        "Adamantite",
+        "Adamantite Ore",
         "",
         ""
       ]
@@ -147,13 +147,13 @@
     "Mastery Level",
     "Mining",
     "",
-    "Adamantite",
+    "Adamantite Ore",
     "99",
     [
       [
         "Start Skill",
         "Mining",
-        "Runite",
+        "Runite Ore",
         "",
         ""
       ]
@@ -163,13 +163,13 @@
     "Mastery Level",
     "Mining",
     "",
-    "Runite",
+    "Runite Ore",
     "99",
     [
       [
         "Start Skill",
         "Mining",
-        "Dragonite",
+        "Dragonite Ore",
         "",
         ""
       ]
@@ -179,7 +179,7 @@
     "Mastery Level",
     "Mining",
     "",
-    "Dragonite",
+    "Dragonite Ore",
     "99",
     [
       [

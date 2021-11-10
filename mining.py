@@ -42,7 +42,8 @@ def generate_list(itemlist):
 
 mastery_list = []
 itemlist = []
-itemlist.extend(materials)
+itemlist.extend(["Rune Essence"])
+itemlist.extend([x + " Ore" for x in materials if "Essence" not in x])
 
 # Manually add the starting point
 mastery_list.append(
