@@ -1,0 +1,194 @@
+[
+  [
+    "Idle",
+    "",
+    "",
+    "",
+    "",
+    [
+      [
+        "Start Skill",
+        "Astrology",
+        "Deedree",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Astrology",
+    "",
+    "Deedree",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Astrology",
+        "Iridan",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Astrology",
+    "",
+    "Iridan",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Astrology",
+        "Ameria",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Astrology",
+    "",
+    "Ameria",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Astrology",
+        "Terra",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Astrology",
+    "",
+    "Terra",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Astrology",
+        "Vale",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Astrology",
+    "",
+    "Vale",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Astrology",
+        "Syllia",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Astrology",
+    "",
+    "Syllia",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Astrology",
+        "Arachi",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Astrology",
+    "",
+    "Arachi",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Astrology",
+        "Ko",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Astrology",
+    "",
+    "Ko",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Astrology",
+        "Tellus",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Astrology",
+    "",
+    "Tellus",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Astrology",
+        "Hyden",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Astrology",
+    "",
+    "Hyden",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Astrology",
+        "Qimican",
+        "",
+        ""
+      ]
+    ]
+  ],
+  [
+    "Mastery Level",
+    "Astrology",
+    "",
+    "Qimican",
+    "99",
+    [
+      [
+        "Start Skill",
+        "Agility",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ]
+]
